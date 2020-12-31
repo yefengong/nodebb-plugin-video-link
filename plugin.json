@@ -1,0 +1,20 @@
+{
+  "id": "nodebb-plugin-video-link",
+  "url": "https://github.com/yefengong/nodebb-plugin-video-link",
+  "library": "index.js",
+  "staticDirs": {
+    "static": "static"
+  },
+  "css": [
+    "static/video-embed.css"
+  ],
+  "hooks": [
+    { "hook": "filter:parse.post", "method": "filterParsePost", "priority": 9 },
+    { "hook": "static:app.load", "method": "staticAppLoad" }
+  ],
+  "description": "A nodebb plugin pass embed video link to iframe",
+  "name": "NodeBB Video Link",
+  "nbbpm": {
+    "compatibility": "^1.16.0"
+  }
+}

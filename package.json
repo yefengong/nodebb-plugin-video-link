@@ -1,0 +1,44 @@
+{
+  "name": "nodebb-plugin-video-link",
+  "version": "0.0.1",
+  "description": "A nodebb plugin pass embed video link to iframe",
+  "main": "index.js",
+  "nbbpm": {
+    "compatibility": "^1.16.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "jestInit": "jest --init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yefengong/nodebb-plugin-video-link.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "tag": "beta",
+    "access": "public"
+  },
+  "files": [
+    "static",
+    "index.js",
+    "plugin.json",
+    "video-sites.js"
+  ],
+  "keywords": [
+    "nodebb",
+    "youtube",
+    "youku",
+    "iqiyi",
+    "bilibili"
+  ],
+  "author": "jason",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yefengong/nodebb-plugin-video-link/issues"
+  },
+  "homepage": "https://github.com/yefengong/nodebb-plugin-video-link#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
